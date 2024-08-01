@@ -46,9 +46,9 @@ fn plus_one_without_semicolon(x: u32) -> u32 {
     x + 1 //Right way, because it hasn't a semicolon therefore, it will return a value
 }
 
-fn plus_one_with_semicolon(x: u32) -> u32 {
-    x + 1; //Wrong way, because it has a semicolon therefore, it will not return a value
-}                                     
+// fn plus_one_with_semicolon(x: u32) -> u32 {
+//     x + 1; //Wrong way, because it has a semicolon therefore, it will not return a value
+// }                                     
                             
 fn main(){
     // another_function(5);
@@ -64,11 +64,11 @@ fn main(){
     // let x = five(); //Assing the return value of "five" to "x" variable
     // println!("The value of x is: {}", x);
 
-    let x = plus_one_without_semicolon(5); //--> Right way
+//     let x = plus_one_without_semicolon(5); //--> Right way
 
-    println!("The value of x is: {}", x);
+//     println!("The value of x is: {}", x);
 
-    let y = plus_one_with_semicolon(5); //--> Wrong way. It will throw a exception
+//     let y = plus_one_with_semicolon(5); //--> Wrong way. It will throw a exception
 
-    println!("The value of x is: {}", y);
-}
+//     println!("The value of x is: {}", y);
+ }
